@@ -46,7 +46,7 @@ void setup() {
 }
 
 void loop() {
-  if(millis()>=39300000){
+  if(millis()>=43200000){
     giorno=!giorno;
     setMillis();  
   }
